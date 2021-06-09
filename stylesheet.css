@@ -24,11 +24,7 @@ body {
 main {
   height: 70vh;
 }
-.container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+
 .header-left {
   float:left;
   margin-right:25px;
@@ -164,16 +160,15 @@ main {
 .contents {
  
   width: 100%;
+  margin:20px;
   
-   /* untuk responsiveness tambahkan padding-left and right*/
-  padding-left:15px;
-  padding-right:15px;
 }
 
 .content {
   width:25%;
   float:left;
-  
+  padding-left:15px;
+  padding-right:15px;
   color:black;
   background-color: burlywood;
 }
@@ -275,4 +270,15 @@ list-style:none;
 
 #cf6_image:hover {
   background-image:url("gambar1.jpg");
+}
+/*responsive header*/
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+  /* Gantikan property display ke none */
+  
+  
 }
