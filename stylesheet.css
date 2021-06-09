@@ -92,12 +92,14 @@ main {
     }
 }*/
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  padding: 100px 0 100px 0;
   width:100%;
-  background-image: url(https://cdn.pixabay.com/photo/2015/10/31/14/35/dark-1015828_960_720.jpg);
+  /* background-image: url(https://cdn.pixabay.com/photo/2015/10/31/14/35/dark-1015828_960_720.jpg); */
   background-size: cover;
-  color:#D8D5D2;
+  background-image:url(test.jpg);
+  color:#424F5C;
   text-align: center;
+  opacity:0.5;
 
 }
 
@@ -108,6 +110,17 @@ main {
   margin: 0 auto;
   text-align:center;
   
+}
+.best-seller {
+  
+  background-color:#D8D5D2;
+  padding-bottom:30px;
+}
+.best-seller p {
+  font-size:50px;
+  color:#424F5C;
+  letter-spacing:10px;
+  padding-top:50px;
 }
 
 .top-wrapper h1 {
@@ -123,14 +136,21 @@ main {
 .btn-wrapper p {
   margin: 10px 0;
 }
-
+.btn-wrapper a {
+  font-size:25px;
+  padding-bottom:40px;
+}
 .Signup {
-  background-color: #7C8981;
+  background-color: #424F5C;
   margin-right: 10px;
+  width:150px;
+  height:30px
 }
 
 .Login {
-  background-color: #7C8981;
+  background-color: #424F5C;
+  width:150px;
+  height:20px
 }
 
 .btn {
@@ -138,6 +158,13 @@ main {
   color:#D8D5D2;
   display: inline-block;
   border-radius: 4px;
+  
+}
+.animasi {
+  background-color: #D8D5D2;
+  width:100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .btn:hover {
@@ -147,7 +174,9 @@ main {
 .content-wrapper {
   /*heaight dihapus agar responsive*/
   padding-bottom: 80px;
-  background-color:#7C8981;
+  margin-top:50px;
+  /* background-color:#7C8981; */
+  background-color: #D8D5D2;
   text-align: center;
 }
 
@@ -157,11 +186,15 @@ main {
   color: #D8D5D2;
 }
 
+.heading h2 {
+  color:#424F5C;
+  letter-spacing:5px;
+  font-size:50px;
+}
+
 .contents {
- 
   width: 100%;
   margin:20px;
-  
 }
 
 .content {
@@ -170,12 +203,13 @@ main {
   padding-left:15px;
   padding-right:15px;
   color:black;
-  background-color: burlywood;
+  /* background-color: burlywood; */
+}
+.content p {
+  color:#D8D5D2;
 }
 
-
 .content-icon {
-  
   position: relative;
 }
 
@@ -253,23 +287,44 @@ input {
   width: 180px;
   padding-top: 5px;
 }
+textarea {
+  width:200px;
+  margin-top:10px;
+  margin-bottom:0px;
+  padding:20px;
+  font-size:18px;
+  border: 1px solid #dee7ec;
+}
 .fa {
   margin-right:5px;
 }
 li {
 list-style:none;
 }
+.contact-submit {
+  width:200px;
+  padding: 10px 15px;
+  background-color:#D8D5D2;
+  color:#424F5C;
+  display: inline-block;
+  border-radius: 4px;
+  font-family: "Lucida Grande";
+  font-size:16px;
+}
 /*animasi*/
 #cf6_image {
   margin:0 auto;
-  width:330px;
-  height:432px;
+  width:300px;
+  height:400px;
   transition: background-image 1s ease-in-out;
   background-image:url("gambar4.jpg");
 }
 
 #cf6_image:hover {
+  margin:0 auto;
   background-image:url("gambar1.jpg");
+  width:300px;
+  height:400px;
 }
 /*responsive header*/
 .menu-icon{
